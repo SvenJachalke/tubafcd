@@ -22,7 +22,17 @@ Mail:		sven.jachalke@physik.tu-freiberg.de
 	TUBAForange()
 	TUBAFcyan()
   --> returns RGB tuple
+ 
+- color map
+	TUBAFcmap(direction='regular')
+	direction:	'regular','inverse'
 	
+				'regular' ... from blue to red
+				'inverse' ... from red to blue
+	
+	call of TUBAFcmap() gives 'regular'!
+  --> return colormap object for e.g. imshow, etc.
+  
 - importing module:
 	
 	from tubafcd import *

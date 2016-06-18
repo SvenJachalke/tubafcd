@@ -29,5 +29,19 @@ def TUBAFcyan():
 	"""
 	return (35/255.,186/255.,226/255.)
 
+
+def TUBAFcmap(direction='regular'):
+	"""
+	Generates color map, e.g. for imshow
+	"""
+	import matplotlib as mpl
+	
+	if direction == 'regular':
+		TUBAFcmap = mpl.colors.LinearSegmentedColormap.from_list('own',[TUBAFblue(),TUBAFcyan(),TUBAFgreen(),TUBAForange(),TUBAFred()])
+	elif direction == 'inverse':
+		TUBAFcmap = mpl.colors.LinearSegmentedColormap.from_list('own',[TUBAFred(),TUBAForange(),TUBAFgreen(),TUBAFcyan(),TUBAFblue()])	
+	
+	return TUBAFcmap
+	
 #Version of Colors
 TUBAFCDversion='2013'
