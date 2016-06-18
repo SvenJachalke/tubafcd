@@ -1,0 +1,32 @@
+# -----------------------------------------------------
+# --- tubafcd -- MANUAL -------------------------------
+# -----------------------------------------------------
+
+Author:		Sven Jachalke
+Mail:		sven.jachalke@physik.tu-freiberg.de
+
+# Installation
+
+- fire up terminal
+- navigate to tubafcd folder
+- type: python setup.py install
+- wait until installation finished
+
+# TUBAFcolors:
+
+- colors functions
+
+	TUBAFred()
+	TUBAFblue()
+	TUBAFgree()
+	TUBAForange()
+	TUBAFcyan()
+  --> returns RGB tuple
+	
+- importing module:
+	
+	from tubafcd import *
+	--> just use TUBAFrot() -- returning color tuple
+	
+	import tubafcd
+	--> tubafcd.TUBAFrot() 
