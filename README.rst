@@ -16,11 +16,11 @@ Mail:		sven.jachalke@physik.tu-freiberg.de
 
 - colors functions
 
-	TUBAFred()
-	TUBAFblue()
-	TUBAFgree()
-	TUBAForange()
-	TUBAFcyan()
+	TUBAFred() = tubafred() ... red TUBAF color
+	TUBAFblue() = tubafblue() ... blue TUBAF color
+	TUBAFgree() = tubafgree() ... green TUBAF color
+	TUBAForange() = tubaforange() ... orange TUBAF color
+	TUBAFcyan() = tubafcyan() ... cyan TUBAF color
   --> returns RGB tuple
  
 - color map
