@@ -1,8 +1,8 @@
-tubafcd - Manual
+tubafcdpy
 ================
 Author:		Sven Jachalke
 Mail:		sven.jachalke@physik.tu-freiberg.de
-Version:	0.2.3.
+Version:	0.2.4.
 
 Installation
 ============
