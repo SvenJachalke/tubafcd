@@ -58,12 +58,14 @@ def TUBAFcmap(direction='regular'):
 	Generates color map, e.g. for imshow
 	"""
 	import matplotlib as mpl
+	from matplotlib.cm import register_cmap
 	
 	if direction == 'regular':
 		TUBAFcmap = mpl.colors.LinearSegmentedColormap.from_list('own',[TUBAFblue(),TUBAFcyan(),TUBAFgreen(),TUBAForange(),TUBAFred()])
 	elif direction == 'inverse':
 		TUBAFcmap = mpl.colors.LinearSegmentedColormap.from_list('own',[TUBAFred(),TUBAForange(),TUBAFgreen(),TUBAFcyan(),TUBAFblue()])	
 	
+	mpl.cm.register_cmap(name='TUBAF',cmap=TUBAFcmap)
 	return TUBAFcmap
 
 def tubafcmap(direction='regular'):
