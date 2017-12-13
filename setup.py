@@ -13,8 +13,8 @@ setup(name='tubafcdpy',
 	  url='ssh://git@sj-home.ddns.net:/home/git/tubafcd.git',
       license='CC',
       packages=['tubafcdpy'],
-	  install_requires=[
+	install_requires=[
 	  	'matplotlib',
 	  ],
-	  include_package_data=True,
+	include_package_data=True,
       zip_safe=False)
