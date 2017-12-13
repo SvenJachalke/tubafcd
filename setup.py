@@ -6,10 +6,10 @@ def readme():
 
 setup(name='tubafcdpy',
       version='0.2.5',
-      description='TU Bergakademie Freiberg Corporate Desing functions for python',
+      description='TU Bergakademie Freiberg Corporate Design functions and colors for python/matplotlib',
       long_description=readme(),
       author='Sven Jachalke',
-      author_email='sven.jachalke@physik.tu-freiberg.de',
+      author_email='sven.jachalke@gmail.com',
 	  url='ssh://git@sj-home.ddns.net:/home/git/tubafcd.git',
       license='CC',
       packages=['tubafcdpy'],
