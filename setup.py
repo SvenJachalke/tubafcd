@@ -5,7 +5,7 @@ def readme():
 		return f.read()
 
 setup(name='tubafcdpy',
-      version='0.2.4',
+      version='0.2.5',
       description='TU Bergakademie Freiberg Corporate Desing functions for python',
       long_description=readme(),
       author='Sven Jachalke',
